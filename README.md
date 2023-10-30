@@ -91,6 +91,8 @@ IMPORTANTE: recuerda modificar las referencias a los repos en los archivos maven
 Hay un bug en github en que si publicas el mismo nombre de artefacto, aunque esté en otro repo, puede fallar la publicación, si eso te pasa cambia el valor en `<groupId>` en el archivo `pom.xml`.
 Ver https://github.com/orgs/community/discussions/23474
 
+#push paso 2
+
 
 
 
