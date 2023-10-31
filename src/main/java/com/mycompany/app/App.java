@@ -7,6 +7,9 @@ public class App {
   
 
   public static String triangulo(int a, int b, int c) {
+    if (a == b && b != c && c != a){
+    return "es un triangulo isoceles"
+    }
     if (a + b <= c || b + c <= a || c + a <= b) {
       return "error no es un triangulo";
     }
@@ -14,6 +17,7 @@ public class App {
     {
       return "es un triangulo equilatero";
     }
+    
     return "error no es un triangulo";
   } 
   
