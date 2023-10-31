@@ -20,7 +20,9 @@ public class App {
     {
       return "es un triangulo equilatero";
     }
-    
+    if (a * a + b * b == c * c) || (a * a + c * c == b * b) || (b * b + c * c == a * a){
+      return "es un triangulo pitagorico";
+    }
     return "error no es un triangulo";
   } 
   
