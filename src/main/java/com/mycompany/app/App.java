@@ -16,11 +16,10 @@ public class App {
     if(a != b && b != c && c != a){
     return "es un triangulo escaleno";
     }
-    if (a == b && b == c && c == a)
-    {
+    if (a == b && b == c && c == a){
       return "es un triangulo equilatero";
     }
-    if (a * a + b * b == c * c) || (a * a + c * c == b * b) || (b * b + c * c == a * a){
+    if ((a * a + b * b == c * c) || (a * a + c * c == b * b) || (b * b + c * c == a * a)){
       return "es un triangulo pitagorico";
     }
     return "error no es un triangulo";
